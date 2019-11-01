@@ -19,6 +19,9 @@ In the Terminal<br>
 Run the App<br>
 `npm start`
 
+Create your own .env in the root directory
+`.env`
+
 ### Contributers
 
 Brian Shin<br>
