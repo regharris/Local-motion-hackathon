@@ -19,8 +19,7 @@ In the Terminal<br>
 Run the App<br>
 `npm start`
 
-Create your own .env in the root directory
-`.env`
+Create your own `.env` in the root directory
 
 ### Contributers
 
