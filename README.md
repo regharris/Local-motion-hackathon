@@ -20,5 +20,5 @@ Reginald Herris<br>
 Shirley Damiron<br>
 Juan Rosario
 
-#### MIT LICENSE
+#### LICENSE
 [MIT](https://github.com/regharris/Local-motion-hackathon/blob/master/LICENSE)
