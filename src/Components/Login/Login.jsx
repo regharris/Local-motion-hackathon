@@ -1,9 +1,9 @@
 import React from "react";
 
-function Contact() {
+function Login() {
     return(
         <h1>Hello World!</h1>
     )
 }
 
-export default Contact;
+export default Login;

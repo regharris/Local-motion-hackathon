@@ -1,11 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 @import "./Partials/Blog.css";
 >>>>>>> 40e36eb6901e8470ab7b5d264768e8dc69eff2ce
+=======
+>>>>>>> dea4737753bff105281e965f533022da907ffe56
 @import "./Partials/Contact.css";
 @import "./Partials/Donate.css";
 @import "./Partials/Footer.css";
 @import "./Partials/Home.css";
+<<<<<<< HEAD
 <<<<<<< HEAD
 @import "./Partials/Match-Chat.css";
 @import "./Partials/Nav.css";
@@ -15,3 +19,8 @@
 @import "./Partials/Nav.css";
 @import "./Partials/Survey.css";
 >>>>>>> 40e36eb6901e8470ab7b5d264768e8dc69eff2ce
+=======
+@import "./Partials/Nav.css";
+@import "./Partials/Login.css";
+@import "./Partials/Workshops.css";
+>>>>>>> dea4737753bff105281e965f533022da907ffe56
