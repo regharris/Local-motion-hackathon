@@ -2,6 +2,12 @@
 @import "./Partials/Donate.css";
 @import "./Partials/Footer.css";
 @import "./Partials/Home.css";
+<<<<<<< HEAD
 @import "./Partials/Match-Chat.css";
 @import "./Partials/Nav.css";
 @import "./Partials/Survey.css";
+=======
+@import "./Partials/Nav.css";
+@import "./Partials/Login.css";
+@import "./Partials/Workshops.css";
+>>>>>>> dea4737753bff105281e965f533022da907ffe56
