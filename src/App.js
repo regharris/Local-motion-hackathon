@@ -1,10 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 import React from "react";
+<<<<<<< HEAD
 =======
 import React from 'react';
 import logo from './logo.svg';
 >>>>>>> 40e36eb6901e8470ab7b5d264768e8dc69eff2ce
+=======
+<<<<<<< HEAD
+>>>>>>> reggie
 import "./CSS/App.css";
 
 function App() {
@@ -14,7 +18,10 @@ function App() {
     </div>
   );
 =======
+<<<<<<< HEAD
 import React from "react";
+=======
+>>>>>>> reggie
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Nav from "./Components/NavBar/Nav.jsx";
 import Login from "./Components/Login/Login.jsx";
