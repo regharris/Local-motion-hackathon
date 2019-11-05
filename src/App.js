@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Nav from "./Components/NavBar/Nav.jsx";
+import Login from "./Components/Login/Login.jsx";
+import Home from "./Components/Home/Home.jsx";
+import Workshops from "./Components/Workshops/Workshops.jsx";
+import Donate from "./Components/Donate/Donate.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
+
 import "./CSS/App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {};
+
+  render() {
+    return (
+      <BrowserRouter>
+        <Nav />
+        <Switch>
+          <Route exact path="/" render={() => <Login />} />
+          <Route path="/contact" render={() => <Contact />} />
+          <Route path="/home" render={() => <Home />} />
+          <Route path="/donate" render={() => <Donate />} />
+          <Route path="workshops" render={() => <Workshops />} />
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
