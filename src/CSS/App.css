@@ -5,3 +5,14 @@
 @import "./Partials/Nav.css";
 @import "./Partials/Login.css";
 @import "./Partials/Workshops.css";
+
+
+
+html{
+    background-color: white;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}

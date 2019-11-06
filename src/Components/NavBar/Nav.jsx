@@ -6,7 +6,7 @@ function Nav() {
     return(
        <header>
            <nav>
-               <ul>
+               <ul className="linkContainer">
                    <li className="links">
                    <NavLink to="/">Login</NavLink>
                    </li>
