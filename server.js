@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require("dotenv").config();
 const express = require("express");
 const app = express();
@@ -26,6 +25,31 @@ myconnection.connect(error => {
   }
 });
 
+app.get("/employees", (req, res) => {
+  const employees = req.params.query;
+  console.log(employees);
+  console.log("employee get request successful");
+  myconnection.query("SELECT * FROM employees", [employees], function(
+    err,
+    result
+  ) {
+    if (err) throw err;
+    console.log(result);
+    res.send(result);
+  });
+});
+
+app.get("/", (req, res) => {
+  const employees = req.params.query;
+  console.log(employees);
+  console.log("Root get request succsssful");
+  myconnection.query("SELECT * FROM ", [], function(err, result) {
+    if (err) throw err;
+    console.log(result);
+    res.send(result);
+  });
+});
+
 app.listen(PORT, (err, req) => {
   if (err) {
     console.log("server error");
@@ -33,18 +57,3 @@ app.listen(PORT, (err, req) => {
     console.log(`server listening to port ${PORT}`);
   }
 });
-=======
-require('dotenv').config();
-const express = require('express');
-const PORT = 6000;
-const app = express();
-
-const apiRoutes = require("./routes/apiRoutes");
-app.use('/api', apiRoutes);
-
-app.listen(PORT, () => {
-    console.log(`listening on port ${PORT}`);
-})
-
-module.exports = app;
->>>>>>> dea4737753bff105281e965f533022da907ffe56
