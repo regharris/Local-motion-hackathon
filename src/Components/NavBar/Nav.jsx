@@ -6,21 +6,22 @@ function Nav() {
     return(
        <header>
            <nav>
+               <img src="../Images/Logo.png" className="Logo" alt="LocalMotion Logo"></img>
                <ul className="linkContainer">
                    <li className="links">
-                   <NavLink to="/">Login</NavLink>
+                   <NavLink to="/" className="navLinks">Login</NavLink>
                    </li>
                    <li className="links">
-                       <NavLink to="/home">Home</NavLink>
+                       <NavLink to="/home" className="navLinks">Home</NavLink>
                    </li>
                    <li className="links">
-                       <NavLink to="/workshops">Workshops</NavLink>
+                       <NavLink to="/workshops" className="navLinks">Workshops</NavLink>
                    </li>
                    <li className="links">
-                       <NavLink to="/donate">Donate</NavLink>
+                       <NavLink to="/donate" className="navLinks">Donate</NavLink>
                    </li>
                    <li className="links">
-                       <NavLink to="/contact">Contact</NavLink>
+                       <NavLink to="/contact" className="navLinks">Contact</NavLink>
                    </li>
                </ul>
            </nav>
