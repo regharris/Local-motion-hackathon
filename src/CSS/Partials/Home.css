@@ -1,0 +1,89 @@
+/* HERO CSS */
+.heroContainer{
+    position: relative;
+    width: 1440px;
+    height: 750px;
+    text-align: center;
+}
+
+.heroImg{
+   width: 1440px;
+   height: 750px;
+   filter: blur(4px);
+}
+
+.sloganContainer{
+   position: absolute;
+   top: 45%;
+   bottom: 50%;
+   transform: translate(18%, -50%);
+}
+
+.slogan{
+    color: whitesmoke;
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(35, 52, 148);
+}
+
+.heroButton{
+background-color: rgb(48, 1, 45);
+border-radius: 4px;
+}
+
+.heroLinkButton{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgb(35, 52, 148);
+}
+
+/* INFORMATIONAL DIVS CSS  */
+
+.informationContainer{
+text-align: center;
+}
+
+.missionContainer{
+display: block;
+margin: 90px 250px;
+border: 5px solid rgb(43, 1, 37);
+}
+
+.offerContainer{
+display: block;
+/* border: 5px solid rgb(43, 1, 37); */
+margin: 90px 250px;
+}
+
+/* INFORMATIONAL TEXTS */
+
+.aboutUs{
+font-size: 50px;
+color: rgb(43, 1, 37);
+text-shadow: 3px 3px grey;
+}
+
+.explanationText{
+    font-size: 25px;
+}
+
+.offerh3{
+    font-size: 45px;
+    color: rgb(43, 1, 37);
+    text-shadow: 3px 3px grey;
+}
+
+.titleh4{
+ font-size: 30px;
+ color: rgb(43, 1, 37);
+ text-decoration: underline;
+}
+
+.lists{
+    list-style: none;
+}
+
+.items{
+    font-size: 25px;
+}
