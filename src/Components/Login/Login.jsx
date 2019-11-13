@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Login() {
     return (
@@ -11,6 +12,7 @@ function Login() {
                         className="login-form-control"
                         placeholder="Username"
                         aria-describedby="inputGroupPrepend"
+                        width="100px"
                         required
                     />
                     <input
@@ -18,12 +20,18 @@ function Login() {
                         className="login-form-control"
                         placeholder="Password"
                         aria-describedby="inputGroupPrepend"
+                        width="100px"
                         required
                     />
+
                 </div>
-                <button className="login-submit">
-                    Submit
-        </button>
+                <div className="buttonWrapper">
+                    <button type="button" className="login-submit" class="btn btn-secondary"><NavLink to="/home">Login</NavLink></button>
+
+                    <button type="button" className="login-submit" class="btn btn-secondary">Sign Up</button>
+                </div>
+
+
             </form>
         </div>
     )
