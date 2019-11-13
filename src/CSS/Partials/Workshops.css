@@ -1,0 +1,57 @@
+/* HERO */
+
+.sloganWork{
+    color: whitesmoke;
+    font-size: 70px;
+    text-shadow: 3px 3px rgb(21, 211, 186);
+}
+
+.sloganContainerWork{
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    transform: translate(17%, -50%);
+ }
+
+ .workshopsListContainer{
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+ }
+
+ .workshopsList{
+    font-size: 30px;
+    color: rgb(21, 211, 186);
+ }
+
+
+ /* RESUME WORKSOPS DESCRIPTIONS */
+
+.workshopsContainer{
+    display: inline-block;
+    text-align: center;
+    margin: 100px 250px;
+}
+
+.WorkshopsMainTitle{
+    font-size: 60px;
+    color:rgb(56, 1, 48);
+}
+
+.WorkshopsTitle{
+margin: 70px 0;
+font-size: 40px;
+ }
+
+ .listWorkshopsContainer{
+    list-style: none;
+ }
+
+ .descriptionList{
+
+ }
+
+
+.paragraph{
+    font-size: 30px;
+}

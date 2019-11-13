@@ -23,7 +23,7 @@ class App extends React.Component {
           <Route path="/contact" render={() => <Contact />} />
           <Route path="/home" render={() => <Home />} />
           <Route path="/donate" render={() => <Donate />} />
-          <Route path="workshops" render={() => <Workshops />} />
+          <Route path="/workshops" render={() => <Workshops />} />
         </Switch>
         <Footer />
       </BrowserRouter>

@@ -7,10 +7,10 @@ function Home() {
         <img src="../Images/Hero.jpg" className="heroImg" alt="Hero"></img>
         <div className="sloganContainer">
           <h1 className="slogan">
-            Tackling Economic Mobility One City At A Time!
+            Micro Kickstarter Mending Economic Mobility!
           </h1>
           <button className="heroButton">
-          <a href="/" className="heroLinkButton">Join here!</a>
+          <a href="/" className="heroLinkButton">Join Today!</a>
           </button>
         </div>
       </section>
