@@ -4,12 +4,12 @@
 }
 #form {
   background-color: #555;
-  margin-left: 120px;
+  margin-left: 255px;
   margin-right: 120px;
   margin-top: 100px;
   margin-bottom: 60px;
   padding: 10px 10px 30px 10px;
-
+  position: absolute;
   opacity: 0.9;
 }
 #form-title {
@@ -23,6 +23,7 @@
 .col-md-8 {
   display: block;
   margin: 0 auto;
+  width: 780px;
 }
 .form-control {
   margin-bottom: 20px;
@@ -34,4 +35,12 @@
   margin-top: 10px;
   background-color: #3b5998;
   color: white;
+}
+.bg-img2 {
+  background: url("https://images.unsplash.com/photo-1508128376479-d7979f3b30bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3902&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  align-items: center;
 }

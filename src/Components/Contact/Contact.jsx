@@ -6,7 +6,7 @@ const thank = () => {
 
 function Contact() {
     return (
-        <div id="formfluid">
+        <div id="formfluid" class="bg-img2">
             <form id="form">
                 <h1 id="form-title">Contact Us</h1>
                 <div className="col-md-8">
