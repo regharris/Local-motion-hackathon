@@ -4,6 +4,9 @@ nav {
   overflow: auto;
   margin: 0;
 }
+nav a:hover {
+  text-decoration: none;
+}
 
 .links {
   list-style: none;
