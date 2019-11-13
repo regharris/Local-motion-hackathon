@@ -25,6 +25,31 @@ myconnection.connect(error => {
   }
 });
 
+app.get("/employees", (req, res) => {
+  const employees = req.params.query;
+  console.log(employees);
+  console.log("employee get request successful");
+  myconnection.query("SELECT * FROM employees", [employees], function(
+    err,
+    result
+  ) {
+    if (err) throw err;
+    console.log(result);
+    res.send(result);
+  });
+});
+
+app.get("/", (req, res) => {
+  const employees = req.params.query;
+  console.log(employees);
+  console.log("Root get request succsssful");
+  myconnection.query("SELECT * FROM ", [], function(err, result) {
+    if (err) throw err;
+    console.log(result);
+    res.send(result);
+  });
+});
+
 app.listen(PORT, (err, req) => {
   if (err) {
     console.log("server error");
