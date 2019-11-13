@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./CSS/App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -9,7 +8,6 @@ import Workshops from "./Components/Workshops/Workshops.jsx";
 import Donate from "./Components/Donate/Donate.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
-
 
 class App extends React.Component {
   state = {};

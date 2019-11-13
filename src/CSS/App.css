@@ -1,4 +1,3 @@
-
 @import "./Partials/Contact.css";
 @import "./Partials/Donate.css";
 @import "./Partials/Footer.css";
@@ -7,12 +6,11 @@
 @import "./Partials/Login.css";
 @import "./Partials/Workshops.css";
 
-
-html{
-    background-color: white;
-    background-size: cover;
+html {
+  background-color: white;
+  background-size: cover;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }

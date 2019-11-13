@@ -1,0 +1,62 @@
+#lab_social_icon_footer {
+  padding: 10px;
+  background-color: #555;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: #dedede;
+  opacity: 0.9;
+  position: relative;
+  height: 110px;
+}
+
+#lab_social_icon_footer a {
+  color: #dedede;
+}
+#lang-icons {
+  display: flex;
+  margin: 0 auto;
+}
+.icon-item {
+  height: 40px;
+  width: 40px;
+}
+/*
+      Multicoloured Hover Variations
+  */
+#lab_social_icon_footer #social-gh:hover {
+  color: rgb(92, 29, 92);
+  margin: 5px;
+}
+#lab_social_icon_footer #social-li:hover {
+  color: #0073b1;
+  margin: 5px;
+}
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3b5998;
+  margin: 5px;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099ff;
+  margin: 5px;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+  margin: 5px;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+  margin: 5px;
+}
+#copyright {
+  font-size: 10px;
+  text-align: center;
+}
+#date {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}

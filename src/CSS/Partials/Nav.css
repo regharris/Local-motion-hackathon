@@ -1,38 +1,39 @@
-nav{
-    background-color: rgb(43, 1, 37);
-    width: 100%;
-    overflow: auto;
-    margin: 0;
+nav {
+  background-color: rgb(43, 1, 37);
+  width: 100%;
+  overflow: auto;
+  margin: 0;
 }
 
-.links{
-   list-style: none;
-   display: flex;
+.links {
+  list-style: none;
+  display: flex;
   font-size: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .navLinks {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    text-shadow: 3px 3px rgb(35, 52, 148);
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  text-shadow: 3px 3px rgb(35, 52, 148);
 }
 
-.links :hover{
-    color: grey;
+.links :hover {
+  color: grey;
 }
 
-.linkContainer{
-    display: flex;
-    justify-content: flex-end;
+.linkContainer {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.Logo{
-position: absolute;
-width: 150px;
-height: 160px;
-overflow: hidden;
-left: 10px;
-top: -30px;
+.Logo {
+  position: absolute;
+  width: 150px;
+  height: 160px;
+  overflow: hidden;
+  left: 10px;
+  top: -30px;
 }
