@@ -27,24 +27,30 @@ function Workshops() {
           Everyone will learn something new out of these workshops and become
           even prouder of themselves!{" "}
         </p>
-        <h2 className="WorkshopsTitle">Resume Workshop</h2>
-        <ul className="listWorkshopsContainer">
-          <li className="descriptionList">stuff</li>
-          <li className="descriptionList">stuff</li>
-          <li className="descriptionList">stuff</li>
-        </ul>
-        <h2 className="WorkshopsTitle">Financial Workshop</h2>
-        <ul className="listWorkshopsContainer">
-          <li className="descriptionList">stuff</li>
-          <li className="descriptionList">stuff</li>
-          <li className="descriptionList">stuff</li>
-        </ul>
-        <h2 className="WorkshopsTitle">Communications Workshop</h2>
-        <ul className="listWorkshopsContainer">
-          <li className="descriptionList">stuff</li>
-          <li className="descriptionList">stuff</li>
-          <li className="descriptionList">stuff</li>
-        </ul>
+        <div className="columnContainer">
+          <h2 className="WorkshopsTitle">Resume Workshop</h2>
+          <ul className="listWorkshopsContainer">
+            <li className="descriptionList">Organization and Neatness</li>
+            <li className="descriptionList">Correctness and Precision</li>
+            <li className="descriptionList">Persuasion and Credibility</li>
+          </ul>
+        </div>
+        <div className="columnContainer">
+          <h2 className="WorkshopsTitle">Financial Workshop</h2>
+          <ul className="listWorkshopsContainer">
+            <li className="descriptionList">Informative in decision making</li>
+            <li className="descriptionList">Plan of action for savings</li>
+            <li className="descriptionList">Arragements to meet goals</li>
+          </ul>
+        </div>
+        <div className="columnContainer">
+          <h2 className="WorkshopsTitle">Communications Workshop</h2>
+          <ul className="listWorkshopsContainer">
+            <li className="descriptionList">Improve effective communication</li>
+            <li className="descriptionList">Use of suitable terminalogy</li>
+            <li className="descriptionList">Enhance Network</li>
+          </ul>
+        </div>
       </div>
     </>
   );
